@@ -11,7 +11,7 @@ def calculate_average_price(input_dictionary):
             value = value/(i)
             value = round(value, 2)
             input_dictionary[a] = value
-        print(input_dictionary)
+        return (input_dictionary)
 
 
 def check_float(input_diction):
